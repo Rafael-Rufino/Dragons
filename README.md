@@ -77,6 +77,13 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 <a id="como-usar"></a>
 
+## Login
+
+```
+Username: Rafael
+Password: 123456
+```
+
 ## :fire: Como usar
 
 - ### **Pré-requisitos**
