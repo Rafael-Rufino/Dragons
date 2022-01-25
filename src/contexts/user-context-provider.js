@@ -5,8 +5,9 @@ const IsLoginPage = () => window.location.href.indexOf("login/") !== -1;
 
 function UserContextProvider({ children }) {
   let history = useHistory();
+  //const [user, setUser] = useState(null);
 
-  const [user, setUser] = useState(null, () => {
+  const [user, setUser] = useState(() => {
     const storagedDragons = localStorage.getItem("@GithubDragons:user");
     if (storagedDragons) {
       return JSON.parse(storagedDragons);
