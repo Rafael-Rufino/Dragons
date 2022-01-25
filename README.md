@@ -102,7 +102,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 
   # Inicie a aplicação web
-  $ cd dragoons
+  $ cd dragons
   $ npm start
   # ou
   $ yarn start
@@ -130,7 +130,6 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 🎓 **Requisitos para realizar o teste**
 
-# Teste para Desenvolvedor(a) Web Sicredi
 
 ## RF
 
@@ -152,10 +151,11 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 
 RNF
-# Deploy 
-* [x] - Vercel
+
 # Estilização
 * [x] - SaSS
+# tipagem
+* [x] - TypeScript
 
 
 # RN

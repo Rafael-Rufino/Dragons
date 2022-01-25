@@ -24,6 +24,7 @@ function UserContextProvider({ children }) {
       history.push("/");
     } else {
       alert("usuario e senha invalida!");
+      setUser("");
     }
   }
 
