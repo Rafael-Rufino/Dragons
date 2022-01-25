@@ -32,10 +32,16 @@ O <strong>Dragons</strong> é uma aplicação Web que foi fornecida para um test
 ## :heavy_check_mark: :computer:Resultado WEB
 
 <br><br>
-
+<h1 align="center">
+    <img alt="Web" src="./.github/web1.png" width="900px">
+</h1>
 <h1 align="center">
     <img alt="Web" src="./.github/web.png" width="900px">
 </h1>
+<h1 align="center">
+    <img alt="Web" src="./.github/web3.png" width="900px">
+</h1>
+
 
 <br/>
 <p align="center">
