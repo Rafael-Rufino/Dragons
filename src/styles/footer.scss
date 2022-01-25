@@ -7,9 +7,9 @@
   height: 50px;
   padding-top: 40px;
   padding-bottom: 30px;
-  background: #835afd;
+  background: var(--roxo);;
   strong {
-    color: #1e1e1e;
+    color: var(--black);
     padding: 5px;
     border-radius: 8px;
     font-weight: 700;

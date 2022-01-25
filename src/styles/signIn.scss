@@ -6,8 +6,8 @@
 
 aside{
   flex: 7;
-  background: #835afd;
-  color: #FFF;
+  background: var(--roxo);
+  color: var(--shape);
   display: flex;
   flex-direction:column;
   justify-content: center;
@@ -47,8 +47,8 @@ main{
       height: 50px;
       border-radius: 8px;
       padding:0 16px;
-      background: #FFF;
-      border: 1px solid #a8a8b3;
+      background: var(--shape);
+      border: 1px solid var(--gray);
       margin-bottom: 16px;
     }
     button{
@@ -66,7 +66,7 @@ main{
 
 .separator {
   font-size: 14px;
-  color: #a8a8b3;
+  color: var(--gray);
   margin: 32px 0;
   display: flex;
   align-items:center;
@@ -76,7 +76,7 @@ main{
     content: '';
     flex: 1;
     height: 1px;
-    background: #a8a8b3;
+    background:var(--gray);
     margin-right: 1rem;
   }
 
@@ -85,7 +85,7 @@ main{
     content: '';
     flex: 1;
     height: 1px;
-    background: #a8a8b3;
+    background: var(--gray);
     margin-left: 1rem;
     
   }

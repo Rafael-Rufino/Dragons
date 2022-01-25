@@ -1,25 +1,23 @@
-<h1 align="center" style = "color: red;">
-    <b style ="color:red;">VideoTeca🧡</b>
+<h1 align="center" style = "color: #835afd;">
+    <b style ="color:#835afd;">Dragons🧡</b>
  <br><br>
-    <b>Projeto para Armazenar Videos</b><br>
+    <b>Teste para Desenvolvedor(a) Web Sicredi</b>
+    <br>
 
 </h1>
 
 <br><br>
-Acessar API
-<br><br>
-<a href="https://github.com/Rafael-Rufino/Api_VideoTeca.git" target="_blank">Back-End</a>
 
 ## :bookmark: Sobre
 
-O <strong>VideoTeca</strong> é uma aplicação Web voltada para Armazenar videos.
+O <strong>Dragons</strong> é uma aplicação Web que foi fornecida para um teste tecnico.
 <br>
 
-## Conceitos aprendido
+## Conceitos Aplicados
 
 ### Context API
 
-### SWR: React Hooks for Data Fectching
+### Sass -estilização
 
 ### hooks
 
@@ -27,7 +25,9 @@ O <strong>VideoTeca</strong> é uma aplicação Web voltada para Armazenar video
 
 ### Criação de Modal
 
-### Styled components
+### Typescript
+
+### Salvando login de usuario no localStorage
 
 ## :heavy_check_mark: :computer:Resultado WEB
 
@@ -38,10 +38,6 @@ O <strong>VideoTeca</strong> é uma aplicação Web voltada para Armazenar video
 </h1>
 
 <br/>
-<h1 align="center">
-    <img alt="Web1" src="./.github/web1.png" width="900px">
-</h1>
-
 <p align="center">
   <a href="#sobre">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#tecnologias-utilizadas">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -68,8 +64,8 @@ O <strong>VideoTeca</strong> é uma aplicação Web voltada para Armazenar video
 O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 - [React](https://pt-br.reactjs.org/)
-- [Nodejs](https://www.typescriptlang.org/)
-- [Mogodb](https://firebase.google.com/docs)
+- [Typescript](https://www.typescriptlang.org/)
+- [Sass](https://www.typescriptlang.org/)
 
 <br>
 
@@ -86,10 +82,8 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 ```sh
   Front-End
-  git clone https://github.com/Rafael-Rufino/VideoTeca.git
+  git clone https://github.com/Rafael-Rufino/Dragons.git
 
-  Back-End
-  git clone https://github.com/Rafael-Rufino/Api_VideoTeca.git
 ```
 
 2. Executando a Aplicação:
@@ -102,8 +96,8 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 
   # Inicie a aplicação web
-  $ cd videoteca
-  $ npm run start
+  $ cd dragoons
+  $ npm start
   # ou
   $ yarn start
 
@@ -128,10 +122,47 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 - Commit suas mudanças: `git commit -m 'feat: My new feature'`
 - Push a sua branch: `git push origin my-feature`
 
-🎓 **Quem ministrou?**
+🎓 **Requisitos para realizar o teste**
 
-As aulas foram ministradas pelo mestre
-Huriel - Instructor - Youtube
+# Teste para Desenvolvedor(a) Web Sicredi
+
+## RF
+
+## - Página de login
+
+* [x] - Única página disponível se não estiver logado
+* [x] - Criar um usuário básico para acesso.
+
+## - Uma página de lista de dragões
+
+* [] - Os nomes devem estar em ordem alfabética;
+* [x] - A partir da lista, deverá ser possível remover e alterar as informações dos dragões.
+
+## - Uma página com os detalhes de um dragão específico
+*  Os seguintes dados devem ser apresentados na página:
+* [x] - Data de criação;
+* [x] - Nome
+* [x] - Tipo
+
+
+RNF
+# Deploy 
+* [x] - Vercel
+# Estilização
+* [x] - SaSS
+
+
+# RN
+## Uma página para cadastro de dragões:
+* [x] - Layout responsivo;
+* [x] - Utilizar  React + Typescript
+* [x] - Usar um sistema de controle de versão para entregar o teste (Github, Bitbucket)
+
+# Observação
+* [x] - Organização do código;
+* [x] - Componentização das páginas;
+* [x] - Interface organizada e amigável;
+* [x] - Uso adequado do css/sass/less. NÃO é permitido usar bibliotecas de estilos como: bootstrap, material design, etc.
 
 📝 **License**
 
