@@ -61,6 +61,13 @@ O <strong>Dragons</strong> é uma aplicação Web que foi fornecida para um test
 
 <br>
 
+## :heavy_check_mark: :computer: Video da Aplicação Web
+
+<h1 align="center">
+    <img alt="web" src="./.github/video.gif" width="900px">
+</h1>
+<br>
+
 <a id="sobre"></a>
 
 <a id="tecnologias-utilizadas"></a>
