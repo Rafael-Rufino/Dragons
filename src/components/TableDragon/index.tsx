@@ -2,14 +2,14 @@ import React, { useEffect, useState } from "react";
 import Dragon from "../Dragon";
 import api from "../../services/api";
 import "../../styles/tableDragon.scss";
-interface Idragon {
+interface IDragon {
   id: string;
   name: string;
   type: string;
   createdAt: string;
 }
 export default function TableDragon() {
-  const [dragons, setDragons] = useState([]);
+  const [dragons, setDragons] = useState<IDragon[]>([]);
   useEffect(() => {
     async function handedListAll() {
       const response = await api.get(`${"/dragon"}`);
@@ -17,6 +17,12 @@ export default function TableDragon() {
     }
     handedListAll();
   }, []);
+
+  const dragonOrdenado = dragons.sort((a, b) => {
+    if (a.name > b.name) return 1;
+    if (a.name < b.name) return -1;
+    return 0;
+  });
 
   return (
     <div id="container">
@@ -30,7 +36,7 @@ export default function TableDragon() {
             </tr>
           </thead>
           <tbody>
-            {dragons.map((dragon: Idragon) => (
+            {dragonOrdenado.map((dragon: IDragon) => (
               <Dragon
                 key={dragon.id}
                 id={dragon.id}

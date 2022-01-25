@@ -9,18 +9,21 @@ export default function FormModal() {
     name,
     type,
     nameOnchange,
-    handleDetails,
+    tipo,
     typeOnchange,
     handleSubmit,
   } = useContext(DragonContext);
+
   return (
     <div id="containerForm">
       <div id="content">
         <header>
-          {handleDetails ? (
+          {tipo === "Add" ? (
+            <strong>Adicionar Dragon</strong>
+          ) : tipo === "Details" ? (
             <strong>Detalhes Dragon</strong>
           ) : (
-            <strong>Adicionar Dragon</strong>
+            <strong>Editar Dragon</strong>
           )}
 
           <button type="button" onClick={handleClose}>
@@ -52,10 +55,12 @@ export default function FormModal() {
             </div>
           </main>
           <footer>
-            <button type="submit">
-              <IoCheckmark size="25" />
-              Salvar
-            </button>
+            {tipo !== "Details" && (
+              <button type="submit">
+                <IoCheckmark size="25" />
+                Salvar
+              </button>
+            )}
           </footer>
         </form>
       </div>

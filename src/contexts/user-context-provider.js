@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { useHistory } from "react-router-dom";
 import Context from "./use-context";
-const IsLoginPage = () => window.location.href.indexOf("login") !== -1;
+const IsLoginPage = () => window.location.href.indexOf("login/") !== -1;
 
 function UserContextProvider({ children }) {
   let history = useHistory();
-  //const [user, setUser] = useState(null);
 
-  const [user, setUser] = useState(() => {
+  const [user, setUser] = useState(null, () => {
     const storagedDragons = localStorage.getItem("@GithubDragons:user");
     if (storagedDragons) {
       return JSON.parse(storagedDragons);
@@ -20,15 +19,17 @@ function UserContextProvider({ children }) {
 
   function login({ user, password }) {
     if (user === "Rafael" && password === "123456") {
-      setUser({ email: "user", name: "Rafael Rufino" });
+      setUser({ email: user, name: "Rafael Rufino" });
       history.push("/");
     } else {
+      localStorage.removeItem("@GithubDragons:user");
+      setUser(null);
       alert("usuario e senha invalida!");
-      setUser("");
     }
   }
 
   function logout() {
+    localStorage.removeItem("@GithubDragons:user");
     setUser(null);
   }
 

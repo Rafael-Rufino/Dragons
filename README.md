@@ -12,6 +12,17 @@
 
 O <strong>Dragons</strong> é uma aplicação Web que foi fornecida para um teste tecnico.
 <br>
+<br>
+
+<p align="center">
+  <a href="#sobre">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#tecnologias-utilizadas">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#como-usar">Como Usar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Como-Contribuir">Como Contribuir</a>
+ 
+ 
+</p>
+
 
 ## Conceitos Aplicados
 
@@ -44,14 +55,6 @@ O <strong>Dragons</strong> é uma aplicação Web que foi fornecida para um test
 
 
 <br/>
-<p align="center">
-  <a href="#sobre">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#tecnologias-utilizadas">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#como-usar">Como Usar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#Como-Contribuir">Como Contribuir</a>
- 
- 
-</p>
 
 <p align="center">
  <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=49AA26&labelColor=000000" alt="PRs welcome!" />

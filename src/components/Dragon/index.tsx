@@ -19,10 +19,10 @@ export default function Dragon({ id, name, type, date }: IDragon) {
         <td>{new Intl.DateTimeFormat("pt-BR").format(new Date(date))}</td>
         <td>
           <div id="icons">
-            <button onClick={() => handleDetails(id, name, type)}>
+            <button onClick={() => handleDetails(id, name, type, "Details")}>
               <FaSearch size="20" />
             </button>
-            <button onClick={() => handleEdit(id, name, type)}>
+            <button onClick={() => handleEdit(id, name, type, "Edit")}>
               <FaEdit size="20" />
             </button>
 

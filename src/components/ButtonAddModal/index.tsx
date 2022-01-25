@@ -7,7 +7,7 @@ const ButtonAddModal: React.FC = () => {
   const { handleAdd } = useContext(DragonContext);
   return (
     <div className="container">
-      <button type="button" onClick={handleAdd}>
+      <button type="button" onClick={() => handleAdd("Add")}>
         Adicionar Dragon
         <FaPlusCircle className="icon" size="20" />
       </button>

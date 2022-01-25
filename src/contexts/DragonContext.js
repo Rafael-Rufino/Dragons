@@ -8,19 +8,22 @@ export function DragonContextProvider({ children }) {
   const [name, setName] = useState("");
   const [type, setType] = useState("");
   const [id, setId] = useState(false);
+  const [tipo, setTipo] = useState("");
 
-  function handleEdit(id, name, type) {
+  function handleEdit(id, name, type, tipo) {
+    setTipo(tipo);
     setName(name);
     setType(type);
     setId(id);
     setOpenFormModal(true);
   }
-  function handleDetails(id, name, type) {
+  function handleDetails(id, name, type, tipo) {
     const dragons = {
       name,
       type,
     };
     api.get(`dragon/${id}`, dragons);
+    setTipo(tipo);
     setName(name);
     setType(type);
     setId(id);
@@ -28,7 +31,8 @@ export function DragonContextProvider({ children }) {
     setOpenFormModal(true);
   }
 
-  function handleAdd() {
+  function handleAdd(tipo) {
+    setTipo(tipo);
     setOpenFormModal(true);
   }
 
@@ -80,6 +84,7 @@ export function DragonContextProvider({ children }) {
         name,
         setName,
         type,
+        tipo,
         setType,
         nameOnchange,
         handleDetails,
